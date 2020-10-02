@@ -1,0 +1,18 @@
+{
+  "StackPolicy" : {
+    "Statement" : [
+      {
+        "Effect" : "Allow",
+        "Action" : "Update:*",
+        "Principal": "*",
+        "Resource" : "vikas-dynamodb-ExampleTable-1LHXZVX75IMG5"
+      },
+      {
+        "Effect" : "Deny",
+        "Action" : "Update:Replace",
+        "Principal": "*",
+        "Resource" : "vikas-dynamodb-ExampleTable-1LHXZVX75IMG5"
+      }
+    ]
+  }
+}
