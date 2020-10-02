@@ -1,18 +1,20 @@
 {
-  "StackPolicy" : {
-    "Statement" : [
-      {
-        "Effect" : "Allow",
-        "Action" : "Update:*",
-        "Principal": "*",
-        "Resource" : "abc-xyz-Dev-ChangeSet-dynamodb"
-      },
-      {
-        "Effect" : "Deny",
-        "Action" : "Update:Replace",
-        "Principal": "*",
-        "Resource" : "abc-xyz-Dev-ChangeSet-dynamodb"
+  "Statement" : [
+    {
+      "Effect" : "Deny",
+      "Action" : "Update:Replace",
+      "Principal": "*",
+      "Condition" : {
+        "StringEquals" : {
+          "ResourceType" : ["AWS::DynamoDB::Table"]
+        }
       }
-    ]
-  }
+    },
+    {
+      "Effect" : "Allow",
+      "Action" : "Update:*",
+      "Principal": "*",
+      "Resource" : "*"
+    }
+  ]
 }
