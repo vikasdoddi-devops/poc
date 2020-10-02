@@ -5,13 +5,13 @@
       "Effect" : "Deny",
       "Action" : "Update:Replace",
       "Principal": "*",
-      "Resource": "abc-xyz-Dev-dynamodb-ExampleTable-MZVJEX6PK54O"
+      "Resource": "LogicalResourceId/ExampleTable"
     },
     {
       "Effect" : "Allow",
       "Action" : "Update:*",
       "Principal": "*",
-      "Resource" : "abc-xyz-Dev-dynamodb-ExampleTable-MZVJEX6PK54O"
+      "Resource" : "*"
 
     }
   ]
