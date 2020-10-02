@@ -1,4 +1,5 @@
 {
+  "StackPolicy" : {
   "Statement" : [
     {
       "Effect" : "Deny",
@@ -17,4 +18,5 @@
       "Resource" : "*"
     }
   ]
+}
 }

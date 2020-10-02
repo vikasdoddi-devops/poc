@@ -5,7 +5,11 @@ Resources:
       AttributeDefinitions:
         - AttributeName: id
           AttributeType: S
+        - AttributeName: updatedAt
+          AttributeType: N
       KeySchema:
         - AttributeName: id
           KeyType: HASH
+        - AttributeName: updatedAt
+          KeyType: RANGE
       BillingMode: PAY_PER_REQUEST
