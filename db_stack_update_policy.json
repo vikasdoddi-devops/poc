@@ -12,6 +12,7 @@
       "Action" : "Update:*",
       "Principal": "*",
       "Resource" : "abc-xyz-Dev-dynamodb-ExampleTable-MZVJEX6PK54O"
+
     }
   ]
 }
