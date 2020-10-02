@@ -2,6 +2,7 @@ Resources:
   ExampleTable:
     Type: AWS::DynamoDB::Table
     Properties:
+      TableName: example01
       AttributeDefinitions:
         - AttributeName: id00
           AttributeType: S
