@@ -5,7 +5,7 @@
       "Effect" : "Deny",
       "Action" : "Update:Replace",
       "Principal": "*",
-      "Resource": "ExampleTable/examplepoc1"
+      "Resource": "ExampleTable/examplepoc"
     },
     {
       "Effect" : "Allow",
