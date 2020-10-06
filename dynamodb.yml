@@ -4,7 +4,7 @@ Resources:
     Properties:
       TableName: examplepoc
       AttributeDefinitions:
-        - AttributeName: ida
+        - AttributeName: id
           AttributeType: S
       KeySchema:
         - AttributeName: id
