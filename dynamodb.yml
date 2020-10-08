@@ -2,7 +2,7 @@ Resources:
   ExampleTable:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: examplepoc1
+      TableName: examplepoc
       AttributeDefinitions:
         - AttributeName: id
           AttributeType: S
