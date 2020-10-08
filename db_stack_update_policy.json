@@ -11,12 +11,6 @@
           "ResourceType" : ["AWS::DynamoDB::Table"]
       }
     }
-    },
-    {
-      "Effect" : "Allow",
-      "Action" : "Update:*",
-      "Principal": "*",
-      "Resource" : "*"
     }
   ]
 }
