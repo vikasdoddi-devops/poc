@@ -3,7 +3,7 @@
   "Statement" : [
     {
       "Effect" : "Deny",
-      "Action" : "Update:Replace",
+      "Action" : "Update:Delete",
       "Principal": "*",
       "Resource": "ExampleTable/examplepoc"
     },
